@@ -1,0 +1,46 @@
+html {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .prf-image{
+    margin: 30px;
+    width: 300px;
+    height: 300px;
+  }
+
+  .about-section{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 25px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .projects-section{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 25px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .contact-section{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 25px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .description{
+    margin: 25px;
+  }
+
+  .contact-images{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 25px;
+  }
