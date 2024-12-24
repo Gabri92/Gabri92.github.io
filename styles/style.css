@@ -14,6 +14,7 @@ html {
   margin: 0 auto; /* Center the content horizontally */
   padding: 20px; /* Add padding around the container */
   background-color:white;
+  align-self: center;
 }
 
 /* Optional: Style adjustments for sections */
