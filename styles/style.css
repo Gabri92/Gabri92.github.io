@@ -44,3 +44,47 @@ html {
     flex-wrap: wrap;
     margin: 25px;
   }
+
+  .carousel-caption {
+    position: relative;
+    left: auto;
+    right: auto;
+    } 
+
+  .carousel-caption h5 {
+    margin-bottom: 10px; /* Add space below the caption title */
+  }
+  
+  .carousel-caption p {
+    margin-bottom: 20px; /* Ensure text spacing looks balanced */
+    font-size: 16px; /* Adjust font size for better readability */
+  }
+
+  .carousel-control-prev{
+    top: 50%; /* Adjust the vertical position of the arrows */
+    transform: translateY(-90%); /* Center align the arrows vertically */
+    left:-50%; /* Adjust the horizontal position of the arrows */
+  }
+
+  .carousel-control-next {
+    top: 50%; /* Adjust the vertical position of the arrows */
+    transform: translateY(-90%); /* Center align the arrows vertically */
+    right: -50%; /* Adjust the horizontal position of the arrows */
+  }
+  .carousel-inner {
+    margin-bottom: 20px; /* Add space below the carousel content */
+  }
+  
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 100px; /* Adjust the size of the icons */
+    width: 100px; /* Adjust the size of the icons */
+    background-size: 100%; /* Ensure the icons fit their container */
+  }
+
+  @media (max-width: 768px) { /* For small screens (tablets and phones) */
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+      height: 100px; /* Increase size on small screens */
+      width: 100px;
+      background-size: 100%; /* Ensure the icons fit their container */
+    }
+  }
