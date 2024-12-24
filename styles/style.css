@@ -10,9 +10,10 @@ html {
 
 /* Center the main container on the screen */
 .main-container {
-  max-width: 1200px; /* Set a maximum width */
+  max-width: 1600px; /* Set a maximum width */
   margin: 0 auto; /* Center the content horizontally */
   padding: 20px; /* Add padding around the container */
+  background-color:ghostwhite
 }
 
 /* Optional: Style adjustments for sections */
