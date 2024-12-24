@@ -102,7 +102,7 @@ html {
 @media(max-width: 900px){
   .carousel-control-prev{
     top: 50%; /* Adjust the vertical position of the arrows */
-    transform: translateY(-80%); /* Center align the arrows vertically */
+    transform: translateY(-90%); /* Center align the arrows vertically */
     left:-10%; /* Adjust the horizontal position of the arrows */
   }
 }
@@ -110,7 +110,7 @@ html {
 @media(max-width: 900px){
   .carousel-control-next {
     top: 50%; /* Adjust the vertical position of the arrows */
-    transform: translateY(-80%); /* Center align the arrows vertically */
+    transform: translateY(-90%); /* Center align the arrows vertically */
     right: -10%; /* Adjust the horizontal position of the arrows */
   }
 }
