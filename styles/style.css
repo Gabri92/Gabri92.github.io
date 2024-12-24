@@ -34,7 +34,7 @@ html {
   .about-section{
     display: flex;
     flex-wrap: wrap;
-    margin: 25px;
+    margin: auto;
     justify-content: center;
     align-items: center;
     flex-direction: column;
