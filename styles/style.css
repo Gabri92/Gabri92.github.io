@@ -83,17 +83,38 @@ html {
     font-size: 16px; /* Adjust font size for better readability */
   }
 
+  @media(min-width: 900px){
   .carousel-control-prev{
     top: 50%; /* Adjust the vertical position of the arrows */
     transform: translateY(-90%); /* Center align the arrows vertically */
     left:-50%; /* Adjust the horizontal position of the arrows */
   }
+}
 
+@media(min-width: 900px){
   .carousel-control-next {
     top: 50%; /* Adjust the vertical position of the arrows */
     transform: translateY(-90%); /* Center align the arrows vertically */
     right: -50%; /* Adjust the horizontal position of the arrows */
   }
+}
+
+@media(max-width: 900px){
+  .carousel-control-prev{
+    top: 50%; /* Adjust the vertical position of the arrows */
+    transform: translateY(-70%); /* Center align the arrows vertically */
+    left:-10%; /* Adjust the horizontal position of the arrows */
+  }
+}
+
+@media(max-width: 900px){
+  .carousel-control-next {
+    top: 50%; /* Adjust the vertical position of the arrows */
+    transform: translateY(-70%); /* Center align the arrows vertically */
+    right: -10%; /* Adjust the horizontal position of the arrows */
+  }
+}
+
   .carousel-inner {
     margin-bottom: 20px; /* Add space below the carousel content */
   }
@@ -104,10 +125,10 @@ html {
     background-size: 100%; /* Ensure the icons fit their container */
   }
 
-  @media (max-width: 768px) { /* For small screens (tablets and phones) */
+  @media (max-width: 900px) { /* For small screens (tablets and phones) */
     .carousel-control-prev-icon, .carousel-control-next-icon {
-      height: 100px; /* Increase size on small screens */
-      width: 100px;
+      height: 75px; /* Increase size on small screens */
+      width: 75px;
       background-size: 100%; /* Ensure the icons fit their container */
     }
   }
